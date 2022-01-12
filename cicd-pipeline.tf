@@ -61,8 +61,8 @@ resource "aws_codepipeline" "Django_Pipeline" {
             version = "1"
             output_artifacts = ["tf-code"]
             configuration = {
-                FullRepositoryId = "shivani3495/django"
-                BranchName   = "master"
+                FullRepositoryId = "shivani3495/newdjango"
+                BranchName   = "main"
                 ConnectionArn = var.codestar_connector_credentials
                 OutputArtifactFormat = "CODE_ZIP"
             }
