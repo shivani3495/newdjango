@@ -1,2 +1,0 @@
-codepipelinesecret_credentials = "arn:aws:secretsmanager:ap-south-1:237389711669:secret:codepipeline-VbvD55"
-codestar_connector_credentials = "arn:aws:codestar-connections:ap-south-1:237389711669:connection/c88037fb-5fc6-42dc-9946-6ea0d805ee03"
